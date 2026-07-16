@@ -8,6 +8,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"EducationalOrganization","name":"LJB Security Training, LLC","description":"Connecticut state-approved security officer training school. CT Guard Card certification in one day.","url":"https://www.ljbsecuritytraining.com","telephone":"+1-203-907-6594","address":{"@type":"PostalAddress","streetAddress":"58 Renshaw Drive","addressLocality":"East Haven","addressRegion":"CT","postalCode":"06512","addressCountry":"US"},"areaServed":"Connecticut"}
+</script>
 </head>
 <body>
 
@@ -22,16 +25,19 @@
 
 <nav>
   <div class="wrap navrow">
-    <a class="logo" href="#">
+    <a class="logo" href="index.html">
       <img src="img/logo.png" alt="LJB Security Training and Consulting">
       <div><b>LJB Security Training</b><span>East Haven · Connecticut</span></div>
     </a>
-    <div class="navlinks">
-      <a href="#classes">Classes</a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="navlinks" onclick="const n=document.getElementById('navlinks');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu ☰</button>
+    <div class="navlinks" id="navlinks">
+      <a href="index.html#classes">Classes</a>
       <a href="training.html">Programs &amp; Pricing</a>
       <a href="training.html#tracks">For Teams</a>
-      <a href="#about">About Lou</a>
-      <a href="#classes" class="btn">Book Your Seat</a>
+      <a href="about.html">About Lou</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="index.html#classes" class="btn">Book Your Seat</a>
     </div>
   </div>
 </nav>
@@ -221,11 +227,11 @@
       <a href="#">Gift Certificates</a>
     </div>
     <div>
-      <h4>For Graduates</h4>
-      <a href="#">CT Security Job Board</a>
-      <a href="#">Ready-to-Work Profiles</a>
-      <a href="#">Guard Card FAQ</a>
-      <a href="#">Corporate Accounts</a>
+      <h4>Info</h4>
+      <a href="about.html">About Lou</a>
+      <a href="faq.html">Guard Card FAQ</a>
+      <a href="contact.html">Contact &amp; Directions</a>
+      <a href="training.html#paths">Career Paths</a>
     </div>
   </div>
   <div class="copyright"><div class="wrap">© 2026 LJB Security Training, LLC · East Haven, Connecticut</div></div>
