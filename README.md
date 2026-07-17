@@ -6,7 +6,7 @@
 <title>Guard Card FAQ — LJB Security Training</title>
 <meta name="description" content="CT Guard Card frequently asked questions: costs, state fees, 5-year renewal, military waivers, armed Blue Card requirements, and out-of-state transfers.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -15,9 +15,9 @@
   <div class="wrap navrow">
     <a class="logo" href="index.html">
       <img src="img/logo.png" alt="LJB Security Training and Consulting">
-      <div><b>LJB Security</b><span>East Haven · CT</span></div>
+      <div><b>LJB Security</b><span>File Office · East Haven CT</span></div>
     </a>
-    <button class="menu-btn" aria-expanded="false" aria-controls="navlinks" onclick="const n=document.getElementById('navlinks');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu ☰</button>
+    <button class="menu-btn" aria-expanded="false" aria-controls="navlinks" onclick="const n=document.getElementById('navlinks');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu ≡</button>
     <div class="navlinks" id="navlinks">
       <a href="index.html#classes">Classes</a>
       <a href="training.html">Pricing</a>
@@ -25,7 +25,7 @@
       <a href="about.html">Lou</a>
       <a href="faq.html">FAQ</a>
       <a href="contact.html">Contact</a>
-      <a href="index.html#classes" class="btn">Book →</a>
+      <a href="index.html#classes" class="btn">Open Your File →</a>
     </div>
   </div>
 </nav>
@@ -115,25 +115,25 @@
         <h4 style="margin:0">LJB Security Training, LLC</h4>
       </div>
       <p>58 Renshaw Drive, East Haven, CT 06512<br>(203) 907-6594</p>
-      <p style="margin-top:10px;font-size:.8rem">State-approved security training under CT Public Act 08-73. Curriculum and instructors certified by the Department of Emergency Services &amp; Public&nbsp;Protection.</p>
+      <p style="margin-top:10px;font-size:.78rem;font-family:'IBM Plex Mono',monospace">State-approved under CT Public Act 08-73. Instructors certified by DESPP.</p>
     </div>
     <div>
       <h4>Training</h4>
       <a href="index.html#classes">Next Classes</a>
-      <a href="training.html">Pricing</a>
+      <a href="training.html">Fee Schedule</a>
       <a href="training.html#bundles">Bundles</a>
       <a href="training.html#tracks">Team Training</a>
     </div>
     <div>
-      <h4>Info</h4>
-      <a href="about.html">About Lou</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contact.html">Contact</a>
+      <h4>Records</h4>
+      <a href="about.html">Personnel File: Lou</a>
+      <a href="faq.html">Q &amp; A File</a>
+      <a href="contact.html">Contact &amp; Directions</a>
       <a href="training.html#paths">Career Paths</a>
     </div>
   </div>
-  <div class="bigmark">LJB SECURITY</div>
-  <div class="copyright"><div class="wrap">© 2026 LJB Security Training, LLC · East Haven, Connecticut</div></div>
+  <div class="bigmark">/// END OF FILE ///</div>
+  <div class="copyright"><div class="wrap">© 2026 LJB SECURITY TRAINING, LLC · EAST HAVEN, CONNECTICUT</div></div>
 </footer>
 <script>
 const io = new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}})},{threshold:.12});
